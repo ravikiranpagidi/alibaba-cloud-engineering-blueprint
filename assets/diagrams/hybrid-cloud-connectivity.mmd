@@ -1,0 +1,7 @@
+flowchart LR
+    OnPrem[On-Premises Data Center] --> VPN[VPN Gateway]
+    OnPrem --> Express[Express Connect]
+    VPN --> VPC[VPC]
+    Express --> VPC
+    VPC --> ECS[ECS / ACK]
+    VPC --> RDS[(RDS)]

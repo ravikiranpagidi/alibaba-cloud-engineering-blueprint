@@ -1,0 +1,15 @@
+flowchart TB
+    Internet[Internet] --> SLB[Public SLB]
+    subgraph VPC[VPC]
+        subgraph Public[Public vSwitch]
+            SLB
+            NAT[NAT Gateway]
+        end
+        subgraph Private[Private vSwitch]
+            ECS[ECS App]
+            RDS[(RDS)]
+        end
+    end
+    SLB --> ECS
+    ECS --> RDS
+    ECS --> NAT

@@ -1,0 +1,9 @@
+flowchart LR
+    Sources --> OSS[OSS Data Lake]
+    OSS --> DataWorks[DataWorks]
+    DataWorks --> MaxCompute[MaxCompute]
+    MaxCompute --> PAI[PAI]
+    MaxCompute --> Vector[Vector Search / RAG Index]
+    App[GenAI App] --> Vector
+    App --> Model[Model Endpoint]
+    App --> SLS[SLS Monitoring]

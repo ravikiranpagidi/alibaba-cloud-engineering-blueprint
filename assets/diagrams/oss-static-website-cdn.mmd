@@ -1,0 +1,6 @@
+flowchart LR
+    User --> DNS[Custom Domain]
+    DNS --> CDN[CDN HTTPS]
+    CDN --> OSS[(OSS Bucket)]
+    OSS --> Lifecycle[Lifecycle Rules]
+    CDN --> Logs[SLS Access Logs]

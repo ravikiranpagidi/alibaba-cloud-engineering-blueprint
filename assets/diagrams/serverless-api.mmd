@@ -1,0 +1,6 @@
+flowchart LR
+    Client --> API[API Gateway or HTTP Trigger]
+    API --> FC[Function Compute]
+    FC --> OSS[(OSS)]
+    FC --> EventBridge[EventBridge]
+    FC --> SLS[SLS]

@@ -1,0 +1,8 @@
+flowchart LR
+    Users[Users] --> CDN[CDN]
+    CDN --> SLB[SLB or API Gateway]
+    SLB --> Compute[ECS / ACK / Function Compute]
+    Compute --> Data[(RDS / OSS / MaxCompute)]
+    Compute --> Logs[SLS]
+    Logs --> Monitor[CloudMonitor / Grafana]
+    RAM[RAM / KMS / ActionTrail] -.governs.-> Compute

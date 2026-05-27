@@ -1,0 +1,22 @@
+name: Lab improvement
+description: Suggest or improve a hands-on lab
+title: "[Lab]: "
+labels: ["lab", "documentation"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Lab goal
+      description: What should the learner be able to do?
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Alibaba Cloud services
+      description: Which services are involved?
+  - type: textarea
+    id: cleanup
+    attributes:
+      label: Cleanup and cost notes
+      description: What resources must be deleted?

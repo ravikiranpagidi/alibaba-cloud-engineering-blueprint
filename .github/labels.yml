@@ -1,0 +1,30 @@
+- name: good first issue
+  color: "7057ff"
+  description: Friendly starter task for new contributors.
+- name: documentation
+  color: "0075ca"
+  description: Improvements to docs, guides, or explanations.
+- name: lab
+  color: "0e8a16"
+  description: Hands-on lab content.
+- name: architecture
+  color: "5319e7"
+  description: Architecture patterns, diagrams, or design reviews.
+- name: security
+  color: "d73a4a"
+  description: Security, IAM, compliance, or governance content.
+- name: cost-optimization
+  color: "fbca04"
+  description: Cost estimation, budget, cleanup, or rightsizing content.
+- name: data-engineering
+  color: "1d76db"
+  description: Data lake, warehouse, batch, streaming, or analytics content.
+- name: ai-ml
+  color: "a2eeef"
+  description: AI, ML, GenAI, PAI, vector, or RAG content.
+- name: terraform
+  color: "5e40be"
+  description: Terraform examples or modules.
+- name: needs-official-docs
+  color: "cfd3d7"
+  description: Needs verification against official Alibaba Cloud documentation.

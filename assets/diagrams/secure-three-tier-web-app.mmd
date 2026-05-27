@@ -1,0 +1,8 @@
+flowchart LR
+    User --> CDN --> WAF[WAF optional] --> ALB[SLB/ALB]
+    ALB --> Web[ECS Web Tier]
+    Web --> App[ECS App Tier]
+    App --> DB[(RDS Private)]
+    App --> OSS[(OSS)]
+    Web --> SLS[SLS]
+    App --> SLS

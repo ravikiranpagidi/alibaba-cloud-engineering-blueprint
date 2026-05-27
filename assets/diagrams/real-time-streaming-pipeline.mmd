@@ -1,0 +1,6 @@
+flowchart LR
+    Events[Apps / Logs] --> SLS[SLS or Message Queue]
+    SLS --> Flink[Realtime Compute for Apache Flink]
+    Flink --> OSS[(OSS History)]
+    Flink --> ADB[AnalyticDB]
+    ADB --> Dashboard[Dashboard]

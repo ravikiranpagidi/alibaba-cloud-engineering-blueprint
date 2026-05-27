@@ -1,0 +1,9 @@
+flowchart LR
+    Resources[Cloud Resources] --> ActionTrail[ActionTrail]
+    Resources --> Config[Cloud Config]
+    Resources --> SecurityCenter[Security Center]
+    Resources --> Firewall[Cloud Firewall]
+    ActionTrail --> SLS[SLS]
+    Config --> SLS
+    SecurityCenter --> Alerts[Alerts]
+    SLS --> SIEM[SIEM / Dashboards]

@@ -1,0 +1,6 @@
+flowchart LR
+    Resources[Tagged Resources] --> Billing[Billing Data]
+    Billing --> Budgets[Budget Alerts]
+    Billing --> Reports[Cost Reports]
+    Reports --> Owners[Service Owners]
+    Owners --> Actions[Rightsize / Cleanup / Commitments]

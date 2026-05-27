@@ -1,0 +1,10 @@
+flowchart LR
+    Users --> GA[Global Accelerator / DNS]
+    GA --> Primary[Primary Region App]
+    GA -.failover.-> Secondary[Secondary Region App]
+    Primary --> DB1[(Primary DB)]
+    DB1 --> DB2[(Replica / Backup)]
+    Primary --> OSS1[(OSS Primary)]
+    OSS1 --> OSS2[(OSS Replica)]
+    Secondary --> DB2
+    Secondary --> OSS2

@@ -1,0 +1,15 @@
+flowchart TB
+    Governance[Governance: RAM / Cloud Config / ActionTrail]
+    Network[Shared Network Hub]
+    Logs[Central SLS]
+    Security[Security Center / Cloud Firewall / KMS]
+    WorkloadA[Dev Workload]
+    WorkloadB[Prod Workload]
+    Governance --> WorkloadA
+    Governance --> WorkloadB
+    Network --> WorkloadA
+    Network --> WorkloadB
+    WorkloadA --> Logs
+    WorkloadB --> Logs
+    Security --> WorkloadA
+    Security --> WorkloadB

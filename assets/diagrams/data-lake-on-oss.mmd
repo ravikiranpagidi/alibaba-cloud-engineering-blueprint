@@ -1,0 +1,7 @@
+flowchart LR
+    Sources[Sources] --> Raw[OSS Raw]
+    Raw --> DataWorks[DataWorks]
+    DataWorks --> MaxCompute[MaxCompute]
+    MaxCompute --> Curated[OSS Curated]
+    MaxCompute --> AnalyticDB[AnalyticDB]
+    AnalyticDB --> BI[BI / APIs]

@@ -1,0 +1,8 @@
+flowchart LR
+    User --> SLB[SLB]
+    SLB --> ECS1[ECS Zone A]
+    SLB --> ECS2[ECS Zone B]
+    ECS1 --> RDS[(RDS)]
+    ECS2 --> RDS
+    ECS1 --> SLS[SLS]
+    ECS2 --> SLS

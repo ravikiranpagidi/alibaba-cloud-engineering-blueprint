@@ -1,0 +1,8 @@
+flowchart LR
+    Dev[GitHub Actions] --> ACR[Container Registry]
+    ACR --> ACK[ACK Cluster]
+    ACK --> Ingress[SLB Ingress]
+    User --> Ingress
+    ACK --> SLS[SLS]
+    ACK --> Prom[Prometheus]
+    Prom --> Grafana[Grafana]
