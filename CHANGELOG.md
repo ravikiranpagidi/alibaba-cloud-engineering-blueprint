@@ -4,6 +4,12 @@ All notable changes to this repository will be documented in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- Reorganized the repository into an Alibaba Cloud blueprint hub.
+- Moved the original Alibaba Cloud Engineering Blueprint into `blueprints/cloud-engineering/`.
+- Added a root hub README, blueprint catalog, shared folder, and starter blueprint template.
+
 ### Added
 
 - Initial professional repository scaffold.

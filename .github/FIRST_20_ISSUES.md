@@ -1,5 +1,7 @@
 # Suggested First 20 GitHub Issues
 
+These issues currently target the active `blueprints/cloud-engineering/` blueprint unless the issue says it is repository-wide.
+
 1. Add PNG exports for the top 5 Mermaid diagrams.
 2. Expand the ECS lab with screenshots.
 3. Add Terraform for secure VPC baseline.
