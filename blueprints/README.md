@@ -6,13 +6,13 @@ This folder contains Alibaba Cloud blueprint collections. Each blueprint should 
 
 | Blueprint | Folder | Description |
 |---|---|---|
-| Alibaba Cloud Engineering Blueprint | [cloud-engineering](cloud-engineering/) | End-to-end learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise adoption guidance. |
+| Alibaba Cloud Engineering Blueprint | [alibaba-cloud-engineering-blueprint](alibaba-cloud-engineering-blueprint/) | End-to-end learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise adoption guidance. |
 
 ## Blueprint Folder Naming
 
 Use short lowercase folder names:
 
-- `cloud-engineering`
+- `alibaba-cloud-engineering-blueprint`
 - `data-engineering`
 - `security`
 - `devops`

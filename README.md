@@ -4,7 +4,7 @@
 
 This repository is being organized as a home for multiple Alibaba Cloud-related blueprints. The original **Alibaba Cloud Engineering Blueprint** now lives as the first blueprint under:
 
-[blueprints/cloud-engineering](blueprints/cloud-engineering/)
+[blueprints/alibaba-cloud-engineering-blueprint](blueprints/alibaba-cloud-engineering-blueprint/)
 
 ## Recommended Repository Name
 
@@ -33,7 +33,7 @@ Good alternatives:
 
 | Blueprint | Status | Purpose |
 |---|---|---|
-| [Cloud Engineering Blueprint](blueprints/cloud-engineering/) | Active | Practical Alibaba Cloud learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise cloud adoption guidance. |
+| [Alibaba Cloud Engineering Blueprint](blueprints/alibaba-cloud-engineering-blueprint/) | Active | Practical Alibaba Cloud learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise cloud adoption guidance. |
 
 ## Suggested Future Blueprints
 
@@ -61,7 +61,7 @@ Good alternatives:
 |-- blueprints/
 |   |-- README.md
 |   |-- _template/
-|   `-- cloud-engineering/
+|   `-- alibaba-cloud-engineering-blueprint/
 |       |-- README.md
 |       |-- docs/
 |       |-- labs/
