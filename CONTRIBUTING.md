@@ -2,7 +2,7 @@
 
 Thank you for helping improve Alibaba Cloud Blueprints.
 
-This repository is organized as a multi-blueprint hub. Blueprint-specific content lives in top-level folders such as `alibaba-cloud-engineering-blueprint/`, and shared repository guidance lives at the root or under `shared/`.
+This repository is organized as an Alibaba Cloud blueprint collection. Blueprint-specific content lives in top-level folders such as `00-alibaba-cloud-engineering-blueprint/`, `01-cloud-foundations/`, and the other numbered learning paths. Shared repository guidance lives at the root or under `shared/`.
 
 ## What Makes A Strong Contribution
 

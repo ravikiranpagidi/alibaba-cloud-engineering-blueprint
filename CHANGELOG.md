@@ -6,13 +6,15 @@ All notable changes to this repository will be documented in this file.
 
 ### Changed
 
+- Flattened the learning paths so the eight role-based folders, shared assets, templates, GitHub professionalization materials, `ROADMAP.md`, and `service-comparison.md` now live directly at the repository root.
+- Renamed `alibaba-cloud-engineering-blueprint/` to `00-alibaba-cloud-engineering-blueprint/` so the root folder list is ordered as a single Alibaba Cloud blueprint collection.
 - Reorganized the repository into an Alibaba Cloud blueprint hub.
-- Moved the original Alibaba Cloud Engineering Blueprint into top-level `alibaba-cloud-engineering-blueprint/`.
+- Moved the original Alibaba Cloud Engineering Blueprint into top-level `00-alibaba-cloud-engineering-blueprint/`.
 - Added a root hub README, blueprint catalog, shared folder, and starter blueprint template.
 
 ### Added
 
-- Added `alibaba-cloud-learning-paths/` as a top-level blueprint with eight role-based Alibaba Cloud learning paths, labs, projects, diagrams, templates, service comparison, certification/interview prep, and GitHub professionalization materials.
+- Added eight role-based Alibaba Cloud learning paths, labs, projects, diagrams, templates, service comparison, certification/interview prep, and GitHub professionalization materials.
 - Initial professional repository scaffold.
 - Structured learning documentation across cloud fundamentals, services, security, data, AI/ML, DevOps, monitoring, governance, cost, migration, certification, and interview preparation.
 - Hands-on lab templates and starter labs.
