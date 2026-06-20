@@ -2,9 +2,9 @@
 
 > A professional open-source hub for Alibaba Cloud learning, architecture, implementation, certification, interview preparation, and enterprise adoption blueprints.
 
-This repository is being organized as a home for multiple Alibaba Cloud-related blueprints. The original **Alibaba Cloud Engineering Blueprint** now lives as the first blueprint under:
+This repository is being organized as a home for multiple Alibaba Cloud-related blueprints. The original **Alibaba Cloud Engineering Blueprint** now lives as a top-level folder:
 
-[blueprints/alibaba-cloud-engineering-blueprint](blueprints/alibaba-cloud-engineering-blueprint/)
+[alibaba-cloud-engineering-blueprint](alibaba-cloud-engineering-blueprint/)
 
 ## Recommended Repository Name
 
@@ -33,19 +33,19 @@ Good alternatives:
 
 | Blueprint | Status | Purpose |
 |---|---|---|
-| [Alibaba Cloud Engineering Blueprint](blueprints/alibaba-cloud-engineering-blueprint/) | Active | Practical Alibaba Cloud learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise cloud adoption guidance. |
+| [Alibaba Cloud Engineering Blueprint](alibaba-cloud-engineering-blueprint/) | Active | Practical Alibaba Cloud learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise cloud adoption guidance. |
 
 ## Suggested Future Blueprints
 
 | Future blueprint | Suggested folder | What it could cover |
 |---|---|---|
-| Alibaba Cloud Data Engineering Blueprint | `blueprints/data-engineering/` | OSS data lake, DataWorks, MaxCompute, Flink, Hologres, AnalyticDB, governance, data quality, and cost. |
-| Alibaba Cloud Security Blueprint | `blueprints/security/` | RAM, KMS, Cloud Firewall, Security Center, ActionTrail, Cloud Config, zero trust, audit, compliance, and security reviews. |
-| Alibaba Cloud DevOps Blueprint | `blueprints/devops/` | Terraform, ROS, CLI, ACK, Container Registry, GitHub Actions, CI/CD, environment promotion, and rollback. |
-| Alibaba Cloud AI Platform Blueprint | `blueprints/ai-platform/` | PAI, ML pipelines, model deployment, RAG, vector search, GenAI governance, monitoring, and responsible AI. |
-| Alibaba Cloud Migration Blueprint | `blueprints/migration/` | Rehost, replatform, refactor, DTS, Oracle migration, hybrid connectivity, cutover, rollback, and wave planning. |
-| Alibaba Cloud FinOps Blueprint | `blueprints/finops/` | Billing models, tagging, budget alerts, rightsizing, lifecycle policies, cost reviews, and chargeback/showback. |
-| Alibaba Cloud Landing Zone Blueprint | `blueprints/landing-zone/` | Multi-account/resource-group strategy, network hub, shared services, logs, policy, security baseline, and workload onboarding. |
+| Alibaba Cloud Data Engineering Blueprint | `alibaba-cloud-data-engineering-blueprint/` | OSS data lake, DataWorks, MaxCompute, Flink, Hologres, AnalyticDB, governance, data quality, and cost. |
+| Alibaba Cloud Security Blueprint | `alibaba-cloud-security-blueprint/` | RAM, KMS, Cloud Firewall, Security Center, ActionTrail, Cloud Config, zero trust, audit, compliance, and security reviews. |
+| Alibaba Cloud DevOps Blueprint | `alibaba-cloud-devops-blueprint/` | Terraform, ROS, CLI, ACK, Container Registry, GitHub Actions, CI/CD, environment promotion, and rollback. |
+| Alibaba Cloud AI Platform Blueprint | `alibaba-cloud-ai-platform-blueprint/` | PAI, ML pipelines, model deployment, RAG, vector search, GenAI governance, monitoring, and responsible AI. |
+| Alibaba Cloud Migration Blueprint | `alibaba-cloud-migration-blueprint/` | Rehost, replatform, refactor, DTS, Oracle migration, hybrid connectivity, cutover, rollback, and wave planning. |
+| Alibaba Cloud FinOps Blueprint | `alibaba-cloud-finops-blueprint/` | Billing models, tagging, budget alerts, rightsizing, lifecycle policies, cost reviews, and chargeback/showback. |
+| Alibaba Cloud Landing Zone Blueprint | `alibaba-cloud-landing-zone-blueprint/` | Multi-account/resource-group strategy, network hub, shared services, logs, policy, security baseline, and workload onboarding. |
 
 ## Repository Structure
 
@@ -58,31 +58,30 @@ Good alternatives:
 |-- LICENSE
 |-- CHANGELOG.md
 |-- .github/
-|-- blueprints/
+|-- BLUEPRINTS.md
+|-- blueprint-template/
+|-- alibaba-cloud-engineering-blueprint/
 |   |-- README.md
-|   |-- _template/
-|   `-- alibaba-cloud-engineering-blueprint/
-|       |-- README.md
-|       |-- docs/
-|       |-- labs/
-|       |-- projects/
-|       |-- architecture-patterns/
-|       |-- templates/
-|       |-- scripts/
-|       |-- certification/
-|       |-- interview-prep/
-|       |-- wiki/
-|       `-- assets/
+|   |-- docs/
+|   |-- labs/
+|   |-- projects/
+|   |-- architecture-patterns/
+|   |-- templates/
+|   |-- scripts/
+|   |-- certification/
+|   |-- interview-prep/
+|   |-- wiki/
+|   `-- assets/
 `-- shared/
     `-- README.md
 ```
 
 ## How To Add A New Blueprint
 
-1. Copy [blueprints/_template](blueprints/_template/) into a new folder under `blueprints/`.
-2. Rename the folder using a short lowercase slug, for example `data-engineering`.
+1. Copy [blueprint-template](blueprint-template/) into a new top-level folder.
+2. Rename the folder using a descriptive slug, for example `alibaba-cloud-data-engineering-blueprint`.
 3. Update the blueprint README with audience, goals, topics, labs, projects, and roadmap.
-4. Add the new blueprint to [blueprints/README.md](blueprints/README.md).
+4. Add the new blueprint to [BLUEPRINTS.md](BLUEPRINTS.md).
 5. Keep reusable templates or shared guidance under [shared](shared/) when it applies across multiple blueprints.
 6. Link official Alibaba Cloud documentation for service-specific claims.
 

@@ -2,7 +2,7 @@
 
 > A practical, enterprise-ready learning and architecture handbook for Alibaba Cloud engineers, data teams, DevOps teams, solution architects, and cloud adoption leaders.
 
-This blueprint is part of the larger [Alibaba Cloud Blueprints](../../README.md) repository.
+This blueprint is part of the larger [Alibaba Cloud Blueprints](../README.md) repository.
 
 Alibaba Cloud Engineering Blueprint is a structured open-source knowledge base for learning Alibaba Cloud by building real systems. It combines fundamentals, service notes, hands-on labs, architecture patterns, interview preparation, certification preparation, and reusable templates into one repository.
 
@@ -228,11 +228,11 @@ Contributions are welcome when they improve clarity, correctness, hands-on value
 - Terraform or CLI examples with clear warnings
 - Corrections based on official Alibaba Cloud documentation
 
-Read [CONTRIBUTING.md](../../CONTRIBUTING.md) before opening a pull request.
+Read [CONTRIBUTING.md](../CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-This project is released under the MIT License. See [LICENSE](../../LICENSE).
+This project is released under the MIT License. See [LICENSE](../LICENSE).
 
 ## Disclaimer
 

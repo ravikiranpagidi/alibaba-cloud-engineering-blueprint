@@ -11,4 +11,4 @@ Use this folder for content that should not belong to only one blueprint, such a
 - Shared diagram style guidance
 - Shared contribution guidance for blueprint authors
 
-Keep blueprint-specific content inside `blueprints/<blueprint-name>/`.
+Keep blueprint-specific content inside the matching top-level blueprint folder, such as `alibaba-cloud-engineering-blueprint/`.

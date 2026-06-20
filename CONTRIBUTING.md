@@ -2,7 +2,7 @@
 
 Thank you for helping improve Alibaba Cloud Blueprints.
 
-This repository is organized as a multi-blueprint hub. Blueprint-specific content lives under `blueprints/<blueprint-name>/`, and shared repository guidance lives at the root or under `shared/`.
+This repository is organized as a multi-blueprint hub. Blueprint-specific content lives in top-level folders such as `alibaba-cloud-engineering-blueprint/`, and shared repository guidance lives at the root or under `shared/`.
 
 ## What Makes A Strong Contribution
 
@@ -12,14 +12,14 @@ This repository is organized as a multi-blueprint hub. Blueprint-specific conten
 - Corrections based on official Alibaba Cloud documentation.
 - Diagrams that make a design easier to understand.
 - Templates that help engineers make better real-world decisions.
-- New blueprint folders that follow the structure in `blueprints/_template/`.
+- New blueprint folders that follow the structure in `blueprint-template/`.
 
 ## Contribution Workflow
 
 1. Open or claim an issue.
 2. Keep the scope small and clear.
 3. Use the existing document structure.
-4. Put blueprint-specific content under the right `blueprints/<blueprint-name>/` folder.
+4. Put blueprint-specific content under the right top-level blueprint folder.
 5. Add links to official Alibaba Cloud documentation when making service-specific claims.
 6. Include cost and cleanup notes for anything that creates cloud resources.
 7. Run a local Markdown review before submitting.

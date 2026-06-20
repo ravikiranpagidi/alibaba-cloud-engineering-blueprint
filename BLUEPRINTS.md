@@ -1,6 +1,6 @@
-# Blueprints
+# Blueprint Catalog
 
-This folder contains Alibaba Cloud blueprint collections. Each blueprint should be self-contained enough to use independently while still following the shared repository standards.
+This file catalogs Alibaba Cloud blueprint collections in this repository. Each blueprint is a top-level folder so the GitHub main page clearly shows every Alibaba Cloud blueprint.
 
 ## Active Blueprints
 
@@ -10,16 +10,16 @@ This folder contains Alibaba Cloud blueprint collections. Each blueprint should 
 
 ## Blueprint Folder Naming
 
-Use short lowercase folder names:
+Use descriptive lowercase folder names:
 
 - `alibaba-cloud-engineering-blueprint`
-- `data-engineering`
-- `security`
-- `devops`
-- `ai-platform`
-- `migration`
-- `finops`
-- `landing-zone`
+- `alibaba-cloud-data-engineering-blueprint`
+- `alibaba-cloud-security-blueprint`
+- `alibaba-cloud-devops-blueprint`
+- `alibaba-cloud-ai-platform-blueprint`
+- `alibaba-cloud-migration-blueprint`
+- `alibaba-cloud-finops-blueprint`
+- `alibaba-cloud-landing-zone-blueprint`
 
 ## New Blueprint Checklist
 
