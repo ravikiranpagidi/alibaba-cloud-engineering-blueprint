@@ -2,9 +2,12 @@
 
 > A professional open-source hub for Alibaba Cloud learning, architecture, implementation, certification, interview preparation, and enterprise adoption blueprints.
 
-This repository is being organized as a home for multiple Alibaba Cloud-related blueprints. The original **Alibaba Cloud Engineering Blueprint** now lives as a top-level folder:
+This repository is organized as a home for multiple Alibaba Cloud-related blueprints. Each major blueprint lives as a separate top-level folder so learners can choose the track they need without mixing unrelated material.
 
-[alibaba-cloud-engineering-blueprint](alibaba-cloud-engineering-blueprint/)
+Start with one of the active blueprints:
+
+- [alibaba-cloud-engineering-blueprint](alibaba-cloud-engineering-blueprint/)
+- [alibaba-cloud-learning-paths](alibaba-cloud-learning-paths/)
 
 ## Recommended Repository Name
 
@@ -34,6 +37,7 @@ Good alternatives:
 | Blueprint | Status | Purpose |
 |---|---|---|
 | [Alibaba Cloud Engineering Blueprint](alibaba-cloud-engineering-blueprint/) | Active | Practical Alibaba Cloud learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise cloud adoption guidance. |
+| [Alibaba Cloud Learning Paths](alibaba-cloud-learning-paths/) | Active | Eight role-based Alibaba Cloud learning paths for cloud foundations, cloud engineering, platform engineering, data engineering, AI/ML, security, solution architecture, certification, and interviews. |
 
 ## Suggested Future Blueprints
 
@@ -72,6 +76,20 @@ Good alternatives:
 |   |-- interview-prep/
 |   |-- wiki/
 |   `-- assets/
+|-- alibaba-cloud-learning-paths/
+|   |-- README.md
+|   |-- ROADMAP.md
+|   |-- 01-cloud-foundations/
+|   |-- 02-cloud-engineer-path/
+|   |-- 03-platform-engineering-path/
+|   |-- 04-data-engineering-analytics-path/
+|   |-- 05-ai-ml-genai-path/
+|   |-- 06-security-governance-path/
+|   |-- 07-solution-architecture-path/
+|   |-- 08-certification-interview-path/
+|   |-- assets/
+|   |-- templates/
+|   `-- github/
 `-- shared/
     `-- README.md
 ```

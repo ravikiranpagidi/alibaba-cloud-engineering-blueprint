@@ -7,12 +7,14 @@ This file catalogs Alibaba Cloud blueprint collections in this repository. Each 
 | Blueprint | Folder | Description |
 |---|---|---|
 | Alibaba Cloud Engineering Blueprint | [alibaba-cloud-engineering-blueprint](alibaba-cloud-engineering-blueprint/) | End-to-end learning, labs, projects, architecture patterns, certification preparation, interview preparation, and enterprise adoption guidance. |
+| Alibaba Cloud Learning Paths | [alibaba-cloud-learning-paths](alibaba-cloud-learning-paths/) | Eight role-based learning paths with roadmaps, modules, labs, projects, diagrams, templates, certification preparation, interview content, and launch materials. |
 
 ## Blueprint Folder Naming
 
 Use descriptive lowercase folder names:
 
 - `alibaba-cloud-engineering-blueprint`
+- `alibaba-cloud-learning-paths`
 - `alibaba-cloud-data-engineering-blueprint`
 - `alibaba-cloud-security-blueprint`
 - `alibaba-cloud-devops-blueprint`

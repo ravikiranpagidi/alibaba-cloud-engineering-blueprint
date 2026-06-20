@@ -1,0 +1,9 @@
+- name: docs
+  color: 1f77b4
+  description: Documentation improvements
+- name: lab
+  color: 2ca02c
+  description: Hands-on lab content
+- name: project
+  color: ff7f0e
+  description: Real-world project guide
